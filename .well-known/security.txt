@@ -1,0 +1,4 @@
+Contact: mailto:abolfazl@nodeproof.it
+Expires: 2027-11-16T00:00:00.000Z
+Preferred-Languages: en, it
+Canonical: https://nodeproof.it/.well-known/security.txt
