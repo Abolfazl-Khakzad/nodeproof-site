@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' https://forminit.com">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Contact — NodeProof</title>
+  <meta name="description" content="Contact NodeProof for a first call or a free firmware review.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="NodeProof home">
+        <img src="favicon.svg" alt="" width="28" height="28">
+        <span>NodeProof</span>
+      </a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="free-review.html">Free review</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="contact" class="section">
+      <div class="wrap narrow">
+        <h1>Contact</h1>
+        <p>Write to us for a first call or the free review.</p>
+
+        <form class="form" action="https://forminit.com/f/ra4a14yf1hd" method="POST">
+          <div>
+            <label for="name">Name <span aria-hidden="true">*</span></label>
+            <input id="name" name="fi-sender-fullName" type="text" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="company">Company <span aria-hidden="true">*</span></label>
+            <input id="company" name="fi-sender-company" type="text" autocomplete="organization" required>
+          </div>
+          <div>
+            <label for="email">Email <span aria-hidden="true">*</span></label>
+            <input id="email" name="fi-sender-email" type="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="product">Product / what you make <span class="opt">(optional)</span></label>
+            <input id="product" name="fi-text-product" type="text">
+          </div>
+          <div>
+            <label for="message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="fi-text-message" rows="6" required></textarea>
+          </div>
+          <div class="hp" aria-hidden="true">
+            <label for="website">Leave this field empty</label>
+            <input id="website" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <button class="btn" type="submit">Send message</button>
+          <p class="note">We use your data only to reply. See our <a href="privacy.html">Privacy notice</a>.</p>
+        </form>
+
+        <ul class="contact fallback">
+          <li><span class="label">Or email</span> abolfazl@nodeproof.it</li>
+          <li><span class="label">LinkedIn</span> <a href="https://www.linkedin.com/in/abolfazl-khakzad" rel="noopener noreferrer">Abolfazl Khakzad</a></li>
+          <li><span class="label">Location</span> Turin, Piedmont</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2026 NodeProof · Turin, Italy · <a href="mailto:abolfazl@nodeproof.it">abolfazl@nodeproof.it</a> · <a href="privacy.html">Privacy</a></p>
+    </div>
+  </footer>
+</body>
+</html>
